@@ -1,4 +1,4 @@
-## Chatter
+# Chatter
 
 Chatter is a chat app creted by socket.io over an express server
 
