@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="socket.io/socket.io.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Chat Apps</h1>
+    
+<div id="d1">
+        <div id="loginDiv">
+            
+                <input type="text" placeholder="username" id="loginInput" >
+                <button type="button" class="btn btn-info" id="loginButton">Login</button>
+           
+    <ul class="list-group" id="userlist">
+        
+      </ul>
+    
+</div>
+    
+</div>
+    
+    <div id="chatDiv">
+       
+        <input type="text" placeholder="New Message" id="chatInput" name="chat">
+        <button type="button" class="btn btn-info" id="chatButton">send</button>
+        <ul id="msgList"></ul>
+    
+    </div>
+
+</body>
+</html>

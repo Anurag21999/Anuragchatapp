@@ -1,0 +1,20 @@
+#d1{
+    float: left;
+    height: 341px;
+    width: 344px;
+    border:solid orange 1px;
+    background-color: black;
+    color: azure;
+    font-family: cursive;
+    margin: 40px;
+    
+}
+
+#chatDiv{
+    float: right;
+    height: 341px;
+    width: 344px;
+    border:solid orange 1px;
+    margin: 40px;
+
+}
